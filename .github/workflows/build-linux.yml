@@ -26,7 +26,7 @@ jobs:
     - name: Run tests
       run: |
         export ROS_HOME=$PWD/ros_home
-        source /opt/ros/melodic/setup.sh
+        source /opt/ros/noetic/setup.sh
         source devel/setup.sh
         chmod +x src/demo/nodes/demo.py
         rosnode kill -a
