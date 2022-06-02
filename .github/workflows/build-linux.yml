@@ -15,7 +15,7 @@ jobs:
         submodules: recursive
     - name: Build
       run: |
-        source /opt/ros/melodic/setup.sh
+        source /opt/ros/noetic/setup.sh
         sudo apt update
         rosdep update
         rosdep install --from-paths src --ignore-src -r -y
